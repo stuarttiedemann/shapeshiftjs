@@ -1,0 +1,92 @@
+.container {
+	width: 100%;
+    border: 1px dashed #ccc;
+    position: relative;
+}
+
+.container > div {
+    background: #CCC;
+    height: 200px;
+    position: absolute;
+    width: 150px;
+}
+.inner{
+	height: 150px;
+}
+
+.close{
+	display:none;
+	float:right;
+}
+.not-active{
+	pointer-events:none;
+	cursor:default;
+}
+/*.container > div[data-ss-colspan='2'] { width: 170px; }*/
+
+.container .ss-placeholder-child {
+    background: transparent;
+    border: 1px dashed red;
+}
+.container .inner img{
+	width: 100%;
+}
+.container .inner p{
+	text-align: center;
+}
+.hidden {
+    float: left;
+    height:350px;
+}
+
+.wrapper {
+    /*width: 50%;*/
+    background: #fff;
+    z-index:1;
+}
+
+.hidden {
+    width:17%;
+    height: 100vh;
+    z-index:2;
+    position:absolute;
+    left:-1000px;
+    background:#333;
+    color:#000;
+    overflow: hidden;
+}
+.hidden ul li{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height:100px;
+	overflow: none;
+	list-style-type: none;
+}
+.hidden ul li img{
+	width: 100%;
+}
+.hidden ul li p{
+	color: #fff;
+	text-align: center;
+}
+.clear {
+    clear:both;
+}
+#hidden{
+	float: right;
+	color: #fff;
+}
+i{
+	margin: 5px;
+}
+footer .trash{
+	text-align: center;
+	float:right;
+	border: 1px dashed red;
+}
+footer i{
+	text-align: center;
+	margin-left: 31%;
+}
+
